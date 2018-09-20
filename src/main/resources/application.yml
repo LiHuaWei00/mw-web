@@ -1,0 +1,21 @@
+spring:
+        freemarker:
+            request-context-attribute: request
+            allow-request-override: false
+            allow-session-override: false
+            cache: false
+            charset: UTF-8
+            content-type: text/html
+            check-template-location: true
+            enabled: true
+            expose-request-attributes: false
+            expose-session-attributes: false
+            expose-spring-macro-helpers: true
+            prefer-file-system-access: true
+            suffix: .ftl
+            template-loader-path: classpath:/templates/
+            settings.template_update_delay: 0
+            settings.default_encoding: UTF-8
+            spring.freemarker.settings.classic_compatible: true
+            spring.freemarker.order: 1
+
